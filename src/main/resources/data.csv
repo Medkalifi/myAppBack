@@ -1,0 +1,5 @@
+"id","titre", "journal", "anneePublicationStr",	"auteur", "volume", "pageDebut", "pageFin"
+1, The encapsulation study,J Mol Model, 2020-01-08, Mohammed, 22, 102, 105
+2,  BNNT ,2pccp, 2020-01-08, Mlaouah, 22, 102, 105
+3, etude therorique,J Mol Model, 2020-01-08, Mlaouah, 22, 102, 105
+4, The encapsulation study,J Mol Model, -2020-01-08, Mlaouah, 22, 102, 105
