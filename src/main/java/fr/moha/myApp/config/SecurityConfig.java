@@ -39,17 +39,17 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //		http.authorizeRequests().antMatchers("/formations" ).hasAuthority("USER");
 //		http.authorizeRequests().antMatchers("/users" ).hasAuthority("ADMIN");
 				
-		http.authorizeRequests().antMatchers("/formations/**" ).permitAll();
-		http.authorizeRequests().antMatchers("/users/**" ).hasAnyAuthority("ADMIN");
+//		http.authorizeRequests().antMatchers("/formations/**" ).permitAll();
+//		http.authorizeRequests().antMatchers("/users/**" ).hasAnyAuthority("ADMIN");
 		
 		
 		
 		
-		http.authorizeRequests().antMatchers("/login/**", "/register/**").permitAll();
-	http.authorizeRequests().antMatchers("/appUsers/**","/appRoles/**" ).hasAuthority("ADMIN");
-	 http.authorizeRequests().anyRequest().authenticated().and()
-	 .addFilter(new JWTAuthenticationFilter(authenticationManager()))
-	.addFilterBefore(new JWTAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
+//		http.authorizeRequests().antMatchers("/login/**", "/register/**").permitAll();
+//	http.authorizeRequests().antMatchers("/appUsers/**","/appRoles/**" ).hasAuthority("ADMIN");
+//	 http.authorizeRequests().anyRequest().authenticated().and()
+//	 .addFilter(new JWTAuthenticationFilter(authenticationManager()))
+//	.addFilterBefore(new JWTAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
 
 	}
 
