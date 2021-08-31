@@ -37,7 +37,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 				
 		http.authorizeRequests().antMatchers("/login/**", "/register/**").permitAll();
-		http.authorizeRequests().antMatchers("/formations/**" ).permitAll();
+		http.authorizeRequests().antMatchers("/profil/formations/**" ).permitAll();
+		http.authorizeRequests().antMatchers("/profil/expPros/**" ).permitAll();
 		http.authorizeRequests().antMatchers("/startJob/**" ).permitAll();
 		http.authorizeRequests().antMatchers("/file/upload/**" ).permitAll();
 		http.authorizeRequests().antMatchers("/file/donwload/**" ).permitAll();

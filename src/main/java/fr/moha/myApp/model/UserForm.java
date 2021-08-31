@@ -2,6 +2,8 @@ package fr.moha.myApp.model;
 
 
 public class UserForm {
+	
+	private String email;
 	private String username;
 	private String password;
 	private String confirmedPassword;
@@ -24,6 +26,12 @@ public class UserForm {
 	}
 	public void setConfirmedPassword(String confirmedPassword) {
 		this.confirmedPassword = confirmedPassword;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	

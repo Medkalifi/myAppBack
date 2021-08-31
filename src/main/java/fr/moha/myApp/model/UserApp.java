@@ -23,6 +23,7 @@ public class UserApp {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	@Column(unique = true)
+
 	private String userName;
 	// This should allow password to be de-serialized,
 	// but the JSON output of serialization won't include it.
@@ -30,6 +31,7 @@ public class UserApp {
 
 	private String password;
 	private boolean activated;
+	
 	@ManyToMany(fetch = FetchType.EAGER)
 	private Collection<RoleApp> roles = new ArrayList<RoleApp>();
 
