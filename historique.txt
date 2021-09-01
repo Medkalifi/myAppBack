@@ -1,0 +1,500 @@
+   39  mvn clean install -DskipTests -U
+   40  mvn --update-snapshots clean install
+   41  mvn install:install-file -Dfile=D:/Gfi4RH/repository/fr/chu/gestfi/LicenseDecryptor/1.0
+   42  mvn clean install -DskipTests -U
+   43  mvn clean install -DskipTests  -U > log.txt
+   44  npm install -g grunt-cli
+   45   mvn -o clean test -pl :easydore
+   46  npm install -g grunt-cli
+   47  echo %errorlevel%
+   48  gulp test --no-color
+   49   mvn -o clean -DskipTests test -pl :easydore 
+   50   mvn -o clean -DskipTests test -pl :easydore -U
+   51   mvn -o clean -DskipTests test -pl :easydore -u
+   52   mvn -o clean -DskipTests test -pl :easydore -U
+   53   mvn -o clean -DskipTests test -pl :easydore -U
+   54   mvn -o clean  test -pl :easydore -U
+   55   mvn -o  -DskipTests test -pl :easydore -U
+   56  mvn clean install -DskipTests > log1.txt
+   57   mvn -o  -DskipTests test -pl :easydore  > log1.txt
+   58  mvn clean install
+   59  mvn install
+   60  mvn clean
+   61  mvn clean install -U 
+   62  mvn  install -U 
+   63  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar -DpomFile=LicenseDecryptor-1.0.pom
+   64  mvn clean
+   65  mvn clean
+   66  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar -DpomFile=LicenseDecryptor-1.0.pom
+   67  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar -DpomFile=LicenseDecryptor-1.0.pom
+   68  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar -DpomFile=LicenseDecryptor-1.0.pom
+   69  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar -DpomFile=LicenseDecryptor-1.0.pom
+   70  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar -DpomFile=LicenseDecryptor-1.0.pom
+   71  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar
+   72  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar
+   73  mvn install:install-file -Dfile=LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=ja
+   74  mvn install:install-file -Dfile=C:/Users/melkhalifi/.m2/repository/fr/chu/gestfi/LicenseDecryptor/1.0/LicenseDecryptor-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=LicenseDecryptor -Dversion=1.0 -Dpackaging=jar 
+   75  mvn clean
+   76  mvn install:install-file -Dfile=D:/Fortification/easydore-11.6.0/repository/fr/chu/gestfi/axis2-adb-1.6.2/1.0/axis2-adb-1.6.2-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=axis2-adb-1.6.2 -Dversion=1.0 -Dpackaging=jar 
+   77  mvn install:install-file -Dfile=D:/Fortification/easydore-11.6.0/repository/fr/chu/gestfi/axis2-adb-1.6.2/1.0/axis2-kernel-1.6.2-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=axis2-kernel-1.6.2 -Dversion=1.0 -Dpackaging=jar 
+   78  mvn install:install-file -Dfile=D:/Fortification/easydore-11.6.0/repository/fr/chu/gestfi/axis2-kernel-1.6.2/1.0/axis2-kernel-1.6.2-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=axis2-kernel-1.6.2 -Dversion=1.0 -Dpackaging=jar 
+   79  mvn clean install -DskipTests
+   80  mvn clean install -DskipTests -U 
+   81  mvn clean 
+   82  mvn clean 
+   83  mvn clean 
+   84  mvn clean
+   85  mvn clean -U 
+   86  mvn clean -U 
+   87  mvn clean -U 
+   88  mvn clean -U 
+   89  mvn clean -U 
+   90  mvn clean -U 
+   91  mvn clean install -DskipTests
+   92  mvn clean
+   93  mvn install:install-file -Dfile=D:/Fortification/easydore-11.6.0/repository/fr/chu/gestfi/axis2-saaj-1.6.2/1.0/axis2-saaj-1.6.2-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=axis2-saaj-1.6.2-1.0 -Dversion=1.0 -Dpackaging=jar 
+   94  mvn install:install-file -Dfile=D:/Fortification/easydore-11.6.0/repository/fr/chu/gestfi/bcm/bcm-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=bcm-1.0 -Dversion=1.0 -Dpackaging=jar 
+   95  mvn install:install-file -Dfile=D:/Fortification/easydore-11.6.0/repository/fr/chu/gestfi/bcm/1.0/bcm-1.0.jar -DgroupId=fr.chu.gestfi -DartifactId=bcm-1.0 -Dversion=1.0 -Dpackaging=jar 
+   96  mvn clean install -DskipTests
+   97  mvn clean install -DskipTests
+   98  mvn clean install -DskipTests
+   99  npm install -g gulp
+  100  npm install -g gulp
+  101  npm audit
+  102  npm info webpack
+  103  sudo 
+  104  sudo
+  105  sudo melkhalifi2
+  106  npm --version
+  107  cordova --version
+  108  cordova
+  109  npm install -g cordova @ionic/cli native-run cordova-res
+  110  ionic
+  111  git --version
+  112  git --version
+  113  npm install -g cordova @ionic/cli native-run cordova-res
+  114  npm install -g cordova @ionic/cli native-run cordova-res
+  115  npm config set proxy http://172.19.192.33:3128
+  116  npm config set https-proxy http://172.19.192.33:3128
+  117  npm install -g cordova @ionic/cli native-run cordova-res
+  118  java --version
+  119  java -version
+  120  gradle -version
+  121  cd d:
+  122  cd Fortification
+  123  cd Smartemis_1.0.0
+  124  npm i
+  125  npm install
+  126  npm run build:android:recette
+  127  ionic help
+  128  npm install -g cordova @ionic/cli native-run cordova-res
+  129  ionic help
+  130  npm run build:android:recette
+  131  npm install -g cordova ionic
+  132  npm run build:android:recette
+  133  ionic serve -o 
+  134  npm run build
+  135  ls
+  136  cd d
+  137  cd d:
+  138  cd Fortification
+  139  cd easydore-11.6.0
+  140  mvn clean install -DskipTests
+  141  gulp test --no-color
+  142  npm install --global gulp
+  143  mvn clean install -DskipTests
+  144  mvn clean install -DskipTests
+  145  cd d:
+  146  cd Fortification
+  147  cd Smartemis_1.0.0
+  148  npm run build:android:recette
+  149  npm install -g cordova @ionic/cli native-run cordova-res
+  150  cd C:\Program Files (x86)\Android\android-sdk\tools\bin\
+  151  cd C:\Program Files (x86)\Android\android-sdk\tools\bin
+  152  cd 
+  153  ls
+  154  cd AppData/
+  155  ls
+  156  cd Local
+  157  ls
+  158  ls
+  159  ll
+  160  cd Application\ Data/
+  161  ll
+  162  cd 
+  163  pwd
+  164  cd C
+  165  cd c:
+  166  ls
+  167  cd  Program Files (x86)
+  168  cd  Program Files '(x86)'
+  169  cd C:/"Program Files (x86)"/Android/android-sdk/tools/bin
+  170  ls
+  171  cd C:/"Program Files (x86)"/Android/android-sdk/tools/bin/sdkmanager.bat
+  172  cd
+  173  cd d:
+  174  cd Fortification
+  175  cd easydore-11.6.0
+  176  ls
+  177  cd easydore-sources/
+  178  ls
+  179  mvn clean install Dskip tests
+  180  mvn clean
+  181  mvn clean install -DskipTests
+  182  ls
+  183  ll
+  184  cd ..
+  185  ll
+  186  cd BusinessObjects/
+  187  ls
+  188  cd Univers/
+  189  ll
+  190  cd ..
+  191  cd ../configuration/
+  192  ll
+  193  cd ..
+  194  ll
+  195  cd easydore-facturation/
+  196  ll
+  197  mvn clean install Dskip tests
+  198  cd ..
+  199  cd ..
+  200  ll
+  201  cd easydore-11.6.0
+  202  ll
+  203  cd easydore-11.6.0
+  204  ls
+  205  cd easydore-portail
+  206  ll
+  207  cd easydore-portail-investigation
+  208  ll
+  209  mvn clean install Dskip tests
+  210  pwd
+  211  cd ..
+  212  mvn clean install Dskip tests
+  213  mvn clean install -DskipTests=true
+  214  npm install -g grunt 
+  215  mvn clean install -DskipTests=true
+  216  ls
+  217  cd ..
+  218  cd ..
+  219  pwd
+  220  ls
+  221  ll
+  222  cd jenkins/
+  223  ll
+  224  cd workspace/
+  225  ls
+  226  ll
+  227  cd gfi-software-easydore/
+  228  ll
+  229  rm -R easydore-importsurcouts
+  230  ll
+  231  pwd
+  232  pwd
+  233  cp  ../../../Fortification/easydore-11.6.0/easydore-importsurcouts/    /d/jenkins/workspace/gfi-software-easydore/
+  234  cd  ../../../Fortification/easydore-11.6.0/easydore-importsurcouts
+  235  cd ..
+  236  cp easydore-importsurcouts/   /d/jenkins/workspace/gfi-software-easydore/
+  237  cp -R  easydore-importsurcouts/   /d/jenkins/workspace/gfi-software-easydore/
+  238  mv asydore-importsurcouts/   /d/jenkins/workspace/gfi-software-easydore/
+  239  mv easydore-importsurcouts/   /d/jenkins/workspace/gfi-software-easydore/
+  240  cp -R  easydore-importsurcouts/   /d/jenkins/workspace/gfi-software-easydore/
+  241  ls
+  242  ll
+  243  ll
+  244  mvn clean install -DskipTests=true
+  245  mvn clean install -DskipTests=true
+  246  mvn clean install -DskipTests=true
+  247  mvn clean install -DskipTests=true
+  248  cd easydore-rechercheRapide/
+  249  mvn clean install -DskipTests=true
+  250  mvn clean install -DskipTests=true
+  251  cd -
+  252  mvn clean install -DskipTests=true
+  253  pwd
+  254  mvn clean install -DskipTests=true
+  255  cd -
+  256  mvn clean install -DskipTests=true
+  257  mvn clean install -DskipTests=true
+  258  mvn clean install -DskipTests=true
+  259  mvn clean install -DskipTests=true
+  260  npm install -g grunt-cli
+  261  grunt test
+  262  grunt
+  263   npm install grunt --save-dev
+  264  mvn clean install -DskipTests=true
+  265  npm install
+  266  mvn clean install -DskipTests=true
+  267  mvn clean install -DskipTests=true
+  268  mvn clean install -DskipTests=true
+  269  mvn clean install -DskipTests=true
+  270  mvn clean install -DskipTests=true
+  271  grunt:init
+  272  npm install grunt
+  273  mvn clean install -DskipTests=true
+  274  mvn clean install -DskipTests=true
+  275  mvn clean install -DskipTests=true -X 
+  276  bower install
+  277  yo --version&&grunt --version && bower --version
+  278  grunt --version && bower --version
+  279  npm install -g bower
+  280  mvn clean install -DskipTests=true -X 
+  281  mvn clean install -DskipTests=true -X 
+  282  ls
+  283  ionic -v
+  284  npm uninstall -g ionic cordova
+  285  npm install -g ionic
+  286  npm install -g cordova
+  287  npm run build:android:recette
+  288  npm uninstall cordova ionic
+  289  npm run build:android:recette
+  290  npm -v
+  291  ionic v-v
+  292  ionic -v
+  293  npm install -g cordova @ionic/cli native-run cordova-res
+  294  ionic -v
+  295  cd ..
+  296  cd ..
+  297  cd Smartemis_1.0.0
+  298  ls
+  299  node -v
+  300  npm -v
+  301  sudo
+  302  ionic -v
+  303  npm uninstall ionic -g
+  304  npm uninstall ionic -gnpm uninstall cordova -g
+  305  npm uninstall cordova -g
+  306  npm cache clean
+  307  npm cache clean -f
+  308  npm install -g cordova @ionic/cli native-run cordova-res
+  309  npm install
+  310  npm run build:android:recette
+  311  mvn clean install -DskipTests
+  312  npm run build:android:prod
+  313  npm run build
+  314  ionic cordova run android --prod --release
+  315  ionic
+  316  sudo
+  317  apt-get install sudo -y
+  318  ionic
+  319  cordova
+  320  npm run build:android:prod
+  321  inoic serve
+  322  npm install bootstrap
+  323  npm install ionic
+  324  ionic -v
+  325  ionic info
+  326  npm install -g cordova @ionic/cli native-run cordova-res
+  327  npm clean cache
+  328  npm install -g cordova @ionic/cli native-run cordova-res
+  329  node -v
+  330  ionic -v
+  331  npm install -g npm@latest
+  332  ionic
+  333  npm install -g ionic@latest
+  334  npm install
+  335  npm build:android:recette
+  336  ionic 
+  337  npm run build:android:recette
+  338  ionic -v
+  339  npm clean cache --f
+  340  npm build:android:recette
+  341  npm install 
+  342  npm run build:android:recette
+  343  npm i -g cordova
+  344  npm run build:android:recette
+  345  npm run build:android:recette
+  346  npm run build:android:recette
+  347  cd D:
+  348  pwd
+  349  cd jenkins/
+  350  cd lib/
+  351  java -jar agent.jar -jnlpUrl https://delivery.gfi.fr/jenkins/computer/19-Fortify-SCA-Windows-Data4/slave-agent.jnlp -secret 90ff6b36c1e05d7b104b45095f338aa8bfd1f47dbc207893c5e7e0e85a86cc5e -workDir "D:\jenkins"
+  352  java -jar agent.jar -jnlpUrl https://delivery.gfi.fr/jenkins/computer/19-Fortify-SCA-Windows-Data4/slave-agent.jnlp -secret 90ff6b36c1e05d7b104b45095f338aa8bfd1f47dbc207893c5e7e0e85a86cc5e -workDir "D:\jenkins"
+  353  rm -R comptabilite/
+  354  rm -R com/itnsa/web/
+  355  cd ..
+  356  cd ..
+  357  cd ../../
+  358  cd D:\jenkins\workspace\gfi-software-clevaweb
+  359  pwd
+  360  cd jenkins/
+  361  cd workspace/
+  362  cd gfi-software-clevaweb/
+  363  ls
+  364  rm comptabilite/
+  365  rm -R comptabilite/
+  366  rm -r comptabilite/
+  367  rm -rf comptabilite/
+  368  mvn install:install-file -Dfile=itn-plugin-web-i18n-export-0.0.12 -DgroupId=com.itnsa.web.fwk -DartifactId=itn-plugin-web-i18n-export -Dversion=0.0.12 -Dpackaging=jar -DpomFile=itn-plugin-web-i18n-export-0.0.12
+  369  mvn -Dmaven.repo.local=D:\repo_clevaweb\fortify_m2_repoo clean install
+  370  mvn -Dmaven.repo.local=D:\repo_clevaweb\fortify_m2_repoo clean install
+  371  mvn -Dmaven.repo.local=D:\repo_clevaweb\fortify_m2_repo_ancien_version clean install
+  372  mvn install:install-file -Dfile=itn-plugin-web-i18n-export-0.0.12 -DgroupId=com.itnsa.web.fwk -DartifactId=itn-plugin-web-i18n-export -Dversion=0.0.12 -Dpackaging=jar -DpomFile=itn-plugin-web-i18n-export-0.0.12
+  373  ls
+  374  mvn clean install
+  375  bat Gf-2017.bat
+  376  Gf-2017.bat
+  377  mvn clean install -DskipTests
+  378  mvn clean install -DskipTests
+  379  mvn clean install -DskipTests
+  380  mvn clean install -DskipTests
+  381  mvn clean install -U -DskipTests
+  382  mvn clean install -U -DskipTests
+  383  mvn clean install -DskipTests
+  384  mvn clean install -DskipTests -P api,webapp
+  385  mvn clean install -DskipTests -P api,webapp
+  386  mvn clean install -U -DskipTests
+  387  mvn clean package -o -e -U -P it,sgbd,prod
+  388  mvn clean package -o -e -U -P it,sgbd,prod
+  389  mvn clean package -o -e -U -P it,sgbd,prod
+  390  mvn clean package -o -e -U -P it,sgbd,prod
+  391  mvn clean package -o -e -U -P it,sgbd,prod
+  392  mvn clean package -o -e -U -P it,sgbd,prod
+  393  mvn clean package -o -e -U -P it,sgbd,prod
+  394  mvn clean package -o -e -U -P it,sgbd,prod
+  395  mvn clean install -DskipTests -P api,webapp
+  396  mvn clean install -DskipTests -P api,webapp
+  397  mvn clean install -DskipTests -P api,webapp
+  398  mvn clean install -DskipTests -P api,webapp
+  399  mvn clean
+  400  mvn clean install -DskipTests -P api,webapp
+  401  mvn clean install -DskipTests -P api,webapp
+  402  mvn clean install -DskipTests -P api,webapp
+  403  mvn clean install
+  404  mvn clean install -DskipTests -P api,webapp
+  405  mvn clean install -DskipTests -P api,webapp
+  406  mvn clean install -DskipTests -P api,webapp
+  407  mvn clean install -DskipTests -P api,webapp
+  408  mvn clean install -DskipTests -P api,webapp
+  409  mvn clean install -DskipTests -P api,webapp
+  410  mvn clean install -DskipTests -P api,webapp > log.txt
+  411  mvn clean install -DskipTests -P api,webapp
+  412  mvn clean install -DskipTests -P api,webapp
+  413  mvn clean install -DskipTests -P api,webapp
+  414  mvn clean install -DskipTests -P api,webapp
+  415  mvn clean install -DskipTests -O -P api,webapp
+  416  mvn clean install -DskipTests  -P api,webapp
+  417  mvn clean package -o -e -U -P it,sgbd,prod
+  418  C:\Users\melkhalifi\Downloads\Gimaweb Fortify\apache-maven-3.3.3\bin\mvn.cmd  clean package -o -e -U -P it,sgbd,prod
+  419  C:\Users\melkhalifi\Downloads\Gimaweb Fortify\apache-maven-3.3.3\bin\mvn.cmd  clean package -o -e -U -P it,sgbd,prod
+  420  mvn clean 
+  421  mvn clean install -DskipTests
+  422  mvn clean install -DskipTests > logBuild.txt
+  423  mvn clean install -DskipTests
+  424  mvn --settings settings_maven_fortify.xml clean install
+  425  mvn clean install -DskipTests
+  426  mvn clean install -X -DskipTests
+  427  mvn clean install -X -DskipTests
+  428  #!/bin/bash
+  429  echo "############# Start program #############"
+  430  # Compilation of sources
+  431  find "src/" -name '*.java' > "sources.txt"
+  432  javac -encoding "ISO-8859-1" -cp "lib/*" -d "." @sources.txt
+  433  #rm sources.txt
+  434  # Build package
+  435  version_cab="MASTER"
+  436  jar -cvfm CAB_commun-$version_cab.jar MANIFEST.MF cab/abstractCommon/*.class cab/common/*.class cab/interfaceCommon/*.class cab/utils/*.class log4j2.xml cab/completee/jaxb/*.class
+  437  jar -cvfm CAB_gestionstatut-$version_cab.jar MANIFEST.MF cab/statut/*.class
+  438  jar -cvfm CAB_recupfacture-$version_cab.jar MANIFEST.MF cab/pivot/jaxb/*.class cab/ws/*.class
+  439  jar -cvfm CAB_gestiondepot-$version_cab.jar MANIFEST.MF cab/gestion_depot/*.class
+  440  jar -cvfm CAB_depotfacture-$version_cab.jar MANIFEST.MF cab/depot/*.class
+  441  jar -cvfm CAB_CAB_stats-$version_cab.jar MANIFEST.MF cab/stats/*.class
+  442  # Delete the compiled sources
+  443  #rm -Rf "./cab"
+  444  # Move executable jars to the folder Package_cab
+  445  if [ ! -d "./Package_cab" ]; then       mkdir "./Package_cab" ; fi
+  446  mv *.jar "./Package_cab"
+  447  echo "############# End program #############"
+  448  sh build.sh 
+  449  sh build.sh 
+  450  sh build.sh 
+  451  sh build.sh 
+  452  sh build.sh 
+  453  sh build.sh 
+  454  mvn -Pprod clean package -Dmaven.test.skip=true 
+  455  mvn -Pprod clean package -Dmaven.test.skip=true 
+  456  mvn -Pprod clean package -Dmaven.test.skip=true 
+  457  mvn -Pprod clean package -Dmaven.test.skip=true 
+  458  mvn -Pprod clean package -Dmaven.test.skip=true 
+  459  git clone https://delivery.gfi.fr/git/orange-awsc-scaler.git
+  460  pwd
+  461  pwd
+  462  mvn clean install
+  463  mvn clean install
+  464  mvn clean install -DskipTests --offline
+  465  mvn clean install -DskipTests
+  466  git clone  https://gitlab.forge.orange-labs.fr/odf-learning.git 
+  467  git clone https://gitlab.forge.orange-labs.fr/zxhp4140/odf-learning/tree/G06R07
+  468  git clone https://gitlab.forge.orange-labs.fr/zxhp4140/odf-learning.git/G06R07
+  469  git clone https://gitlab.forge.orange-labs.fr/zxhp4140/odf-learning.git
+  470  https://gitlab.forge.orange-labs.fr/dsarcueil/arcueil1/CAH_GW.git
+  471  git clone https://gitlab.forge.orange-labs.fr/dsarcueil/arcueil1/CAH_GW.git
+  472  rm -R gfi-software-clevarcp/
+  473  rm -rf gfi-software-clevarcp/
+  474  sed -i 's/<module>com.itnsa.assurance.itn.client<\/module>//g' jenkins/assurance/40_Transverse/pom.xml > a.xml
+  475  sed -i 's/<module>com.itnsa.assurance.itn.client<\/module>//g' pom.xml > a.xml
+  476  sed -i 's/<module>com.itnsa.assurance.extraction.donnees<\/module>//g' pom.xml
+  477  mvn clean install -DskipTests -s "C:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" --offline
+  478  mvn clean install
+  479  sed '/<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><type>rar</type></dependency>/d' pom.xml > a.txt
+  480  sed -i "s|/<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><type>rar</type></dependency>/d|" pom.xml >a.xml
+  481  sed -i 's|<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><type>rar</type></dependency>||g' pom.xml >a.xml
+  482  sed -i 's|<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><version>${project.version}</version><type>rar</type></dependency>||g' pom.xml
+  483  sed -i 's|<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><version>${project.version}</version><type>rar</type></dependency>||g' pomParent.xml >a.xml
+  484  sed -i 's|<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><version>${project.version}</version><type>rar</type></dependency>||g' pomt.xml >a.xml
+  485  sed -i 's|<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><version>${project.version}</version><type>rar</type></dependency>||g' pomt.xml >a.xml
+  486  sed -i 's|<dependency><groupId>${project.groupId}</groupId><artifactId>IHM-rar</artifactId><version>${project.version}</version><type>rar</type></dependency>||g' pom.xml >a.xml
+  487  sed -e '85,9àd' pom.xml > a.xml
+  488  sed -e '85,90d' pom.xml > a.xml
+  489  sed -e '85,90d' pom.xml 
+  490  :q
+  491    sed -e '22,26d'  IHM-war/pom.xml
+  492    sed -e '22,26d'  IHM-war/pom.xml
+  493    sed -e '22,26d'  'IHM-war/pom.xml'
+  494  git clone https://gitlab.forge.orange-labs.fr/devrap-lyon/mesevenements.git
+  495  git clone https://www.forge.orange-labs.fr/plugins/git/sages/sages.git
+  496  git clone https://gitlab.forge.orange-labs.fr/devrap-lyon/mesevenements.git
+  497  mvn clean install
+  498  git --version
+  499  git config --global user.name "Medkalifi" git config --global user.email "melkhalifi2@gmail.com"
+  500  git config --global user.name Medkalifi git config --global user.email melkhalifi2@gmail.com
+  501  cls
+  502  cd C:\Users\melkhalifi\Desktop\scripts\WS5\myApp
+  503  cd C:/Users/melkhalifi/Desktop/scripts/WS5/myApp
+  504  git init 
+  505  git add .
+  506  git status
+  507  git commit -m "premier commit appli biz sec jwt et batch"
+  508  git config --global user.name "Melkhalifi"
+  509  git config --global user.name
+  510  git config --global user.email melkhalifi2@gamil.com
+  511  git commit -m "premier commit appli biz sec jwt et batch"
+  512  git remote add origin git@github.com:"Medkalifi"/"myAppBack"
+  513  git remote add origin git@github.com:"Medkalifi"/"myAppBack"
+  514  git remote add origin https://github.com/Medkalifi/myAppBack.git
+  515  git remote remove origin
+  516  git remote add origin https://github.com/Medkalifi/myAppBack.git
+  517  git remote -v
+  518  git push 
+  519  git add README.md
+  520  git push -u origin main
+  521  git push origin master
+  522  remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+  523  git push
+  524  git push -u origin main
+  525  git push origin master
+  526  sit status 
+  527  git status 
+  528  git status 
+  529  git commit -a "add file package"
+  530  git commit -am "add file package"
+  531  git push origin master
+  532  git status 
+  533  git commit -am " controller upload download ok "
+  534  git push origin master
+  535  git status 
+  536  git commit -am " controller upload download sec  "
+  537  git push origin master
+  538  history > historique.txt
