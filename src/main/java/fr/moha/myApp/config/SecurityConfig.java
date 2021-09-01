@@ -42,6 +42,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.authorizeRequests().antMatchers("/startJob/**" ).permitAll();
 		http.authorizeRequests().antMatchers("/file/upload/**" ).permitAll();
 		http.authorizeRequests().antMatchers("/file/donwload/**" ).permitAll();
+		http.authorizeRequests().antMatchers("/export/pdf/**").permitAll();
 		
 	//	http.authorizeRequests().antMatchers("/users/**" ).hasAnyAuthority("ADMIN");
 		
