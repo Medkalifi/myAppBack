@@ -13,44 +13,45 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import fr.moha.myApp.model.ExperienceProfessionnelle;
-import fr.moha.myApp.repository.ExperienceProfessionnelleRepository;
+
+import fr.moha.myApp.model.Recherche;
+import fr.moha.myApp.repository.RechercheRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 
-public class ExperienceProfessionnelleController {
+public class RechercheController {
 	
 	@Autowired
-	private ExperienceProfessionnelleRepository experienceProfessionnelleRepository;
+	private RechercheRepository rechercheRepository;
 	
 	@GetMapping("/expPros")
-	public List<ExperienceProfessionnelle> getExpPros(){
+	public List<Recherche> getExpPros(){
 		
-		return experienceProfessionnelleRepository.findAll();
+		return rechercheRepository.findAll();
 	}
 
 	@PostMapping("/expPros")
-	public void addExpPro(@RequestBody ExperienceProfessionnelle exp) {
-		experienceProfessionnelleRepository.save(exp);
+	public void addExpPro(@RequestBody Recherche exp) {
+		rechercheRepository.save(exp);
 	}
 	@GetMapping("/expPros/{id}")
-	public Optional<ExperienceProfessionnelle>  findExp(@PathVariable Long id) {
-		return experienceProfessionnelleRepository.findById(id);
+	public Optional<Recherche>  findExp(@PathVariable Long id) {
+		return rechercheRepository.findById(id);
 	}
 	
 	
 	
 	@PutMapping("/expPros/{id}")
-	public ExperienceProfessionnelle updateExperienceProfessionnelle(@PathVariable Long id,
-			@RequestBody ExperienceProfessionnelle exp ) {
+	public Recherche updateRecherche(@PathVariable Long id,
+			@RequestBody Recherche exp ) {
 		exp.setId(id);
-		return experienceProfessionnelleRepository.save(exp);
+		return rechercheRepository.save(exp);
 	}
 	
 	@DeleteMapping("/expPros/{id}")
 	public void deleteExpPro(@PathVariable Long id) {
 		
-		experienceProfessionnelleRepository.deleteById(id);
+		rechercheRepository.deleteById(id);
 	}
 }

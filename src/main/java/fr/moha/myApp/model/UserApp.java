@@ -25,10 +25,10 @@ public class UserApp {
 	@Column(unique = true)
 
 	private String userName;
+	private String email;
 	// This should allow password to be de-serialized,
 	// but the JSON output of serialization won't include it.
 	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-
 	private String password;
 	private boolean activated;
 	
@@ -49,6 +49,14 @@ public class UserApp {
 
 	public Long getId() {
 		return id;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public void setId(Long id) {

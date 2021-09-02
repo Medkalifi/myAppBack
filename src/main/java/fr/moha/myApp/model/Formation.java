@@ -14,6 +14,9 @@ public class Formation {
 	private LocalDate anneeFin;
 	private String lieu; 
 	private String intitule;
+	
+	
+	
 	public Long getId() {
 		return id;
 	}

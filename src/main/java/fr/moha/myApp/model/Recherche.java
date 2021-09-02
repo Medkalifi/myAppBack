@@ -1,13 +1,18 @@
 package fr.moha.myApp.model;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+import fr.moha.myApp.batch.model.Publication;
 @Entity
-public class ExperienceProfessionnelle {
+public class Recherche {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private LocalDate anneeDebut;
@@ -17,6 +22,18 @@ public class ExperienceProfessionnelle {
 	private String nomProjet;
 	private String Description;
 	private String role;
+	@OneToMany
+	private List<Publication> publications = new ArrayList<>();
+	
+	
+	
+	
+	public List<Publication> getPublications() {
+		return publications;
+	}
+	public void setPublications(List<Publication> publications) {
+		this.publications = publications;
+	}
 	public Long getId() {
 		return id;
 	}

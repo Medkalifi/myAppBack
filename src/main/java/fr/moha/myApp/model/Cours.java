@@ -10,8 +10,6 @@ public class Cours {
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	private Float volumeHoraire;
-	@ManyToOne
-	private Cursus cursus; 
 	private String contenu;
 	
 	
