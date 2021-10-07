@@ -1,4 +1,4 @@
-pipelineJob('theme-park-job') {
+pipelineJob('myAppBack-job') {
     definition {
         cpsScm {
             scm {
