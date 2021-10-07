@@ -1,13 +1,17 @@
-pipelineJob('myAppBack-job') {
-    definition {
-        cpsScm {
-            scm {
-                git {
-                    remote {
-                        url 'https://github.com/Medkalifi/myAppBack.git'
-                    }
-                    branch 'master'
-                }
+pipeline {
+    agent any
+    triggers {
+        pollSCM '* * * * *'
+    }
+    stages {
+        stage('Build') {
+            steps {
+                mvn clean install
+            }
+        }
+        stage('Test') {
+            steps {
+               mvn test 
             }
         }
     }
