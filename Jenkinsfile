@@ -9,10 +9,5 @@ pipeline {
                 mvn clean install 
             }
         }
-        stage('Test') {
-            steps {
-               mvn package
-            }
-        }
     }
 }
